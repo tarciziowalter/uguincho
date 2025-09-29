@@ -1,0 +1,15 @@
+{
+    "name": "tarcizio/uguincho",
+    "autoload": {
+        "psr-4": {
+            "Tarcizio\\Uguincho\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tarcizio Walter",
+            "email": "tarciziowalter@outlook.com"
+        }
+    ],
+    "require": {}
+}
