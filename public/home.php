@@ -134,32 +134,21 @@
 <!-- Contato -->
 <section class="suporte py-5">
     <div class="container">
+        <!-- Div para exibir mensagens de status -->
+        <div id="contact-message-area" class="mt-3"></div>
         <div class="row align-items-center"> 
             <div class="col-md-6">
-                <?php 
-                session_start();
-                if (isset($_SESSION['message'])): 
-                    $alertClass = ($_SESSION['status'] === 'success') ? 'alert-success' : 'alert-danger';
-                ?>
-                    <div class="alert <?= $alertClass ?> mt-3" role="alert">
-                        <?= $_SESSION['message'] ?>
-                    </div>
-                <?php 
-                    unset($_SESSION['message']);
-                    unset($_SESSION['status']);
-                endif; 
-                ?>
                 <h3 class="fw-bold">Contato e suporte</h3>
                 <p>Precisa de ajuda ou tem alguma dúvida? Envie sua mensagem, responderemos o mais rápido possível.</p>
                 <p class="fw-bold">Ou, se preferir:</p>
-                <p>Envie um e-mail <br> <strong>suporte@uguincho.com</strong></p>
-                <p>Fale com o nosso suporte <br> <strong>0800-000-0000</strong></p>
+                <p>Envie um e-mail <br> <strong><?= SITE_EMAIL; ?></strong></p>
+                <p>Fale com o nosso suporte <br> <strong><?= SITE_PHONE; ?></strong></p>
             </div>
             
             <div class="col-md-6">
                 <div class="card border-0">
                     <div class="card-body">
-                        <form method="POST" action="./process_contact.php">
+                        <form id="contact-form" method="POST" action="./process_contact.php">
                             <div class="mb-3">
                                 <input type="text" name="nome" class="form-control shadow-none" placeholder="Nome *" required>
                             </div>
@@ -172,7 +161,7 @@
                             <div class="mb-3">
                                 <textarea name="mensagem" class="form-control shadow-none" rows="4" placeholder="Mensagem *" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-dark w-100">Enviar mensagem</button>
+                            <button type="submit" id="submit-btn" class="btn btn-dark w-100">Enviar mensagem</button>
                         </form>
                     </div>
                 </div>        
@@ -210,5 +199,67 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contact-form');
+        const messageArea = document.getElementById('contact-message-area');
+        const submitBtn = document.getElementById('submit-btn');
+
+        // Função utilitária para exibir a mensagem
+        function displayMessage(status, message) {
+            const alertClass = status === 'success' ? 'alert-success' : 'alert-danger';
+            messageArea.innerHTML = `
+                <div class="alert ${alertClass} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            `;
+            // Role para a área da mensagem para garantir visibilidade
+            messageArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault(); // Impede o envio tradicional do formulário
+            
+            // Limpa mensagens anteriores
+            messageArea.innerHTML = ''; 
+
+            // Desabilita o botão e mostra o loading
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Enviando...';
+
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    throw new Error('Erro de rede ou no servidor');
+                }
+
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    displayMessage('success', result.message);
+                    form.reset(); // Limpa o formulário após o sucesso
+                } else {
+                    displayMessage('error', result.message || 'Ocorreu um erro ao enviar a mensagem.');
+                }
+
+            } catch (error) {
+                console.error('Erro de submissão:', error);
+                displayMessage('error', 'Ocorreu um erro inesperado. Verifique sua conexão e tente novamente.');
+            } finally {
+                // Reabilita o botão e restaura o texto original
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = 'Enviar mensagem';
+            }
+        });
+    });
+</script>
 
 <?php include __DIR__ . '/../templates/footer.php'; ?>
