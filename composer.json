@@ -1,9 +1,13 @@
 {
-    "name": "tarcizio/uguincho",
+    "name": "tarcizio.walter/uguincho",
     "autoload": {
         "psr-4": {
-            "Tarcizio\\Uguincho\\": "src/"
-        }
+            "TarcizioWalter\\Uguincho\\": "src/"
+        },
+        "files": [
+            "app/config.php",
+            "app/mailer.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +15,7 @@
             "email": "tarciziowalter@outlook.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.11"
+    }
 }
