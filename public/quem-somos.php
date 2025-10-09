@@ -8,7 +8,7 @@
 </section>
 
 <section class="container py-5 mb-5">
-    <h2 class="fw-bold mb-4">O UGUINCHO nasceu para transformar situações de urgência em experiências simples e confiáveis.</h2>
+    <h2 class="fw-bold mb-4">O UGUINCHOBR nasceu para transformar situações de urgência em experiências simples e confiáveis.</h2>
     <div class="row">
         <div class="col-lg-8">
             <p>
@@ -22,7 +22,7 @@
 </section>
 
 <section class="container text-center py-5">
-    <h2 class="fw-bold mb-5">Missão, visão e valores que sustentam o UGUINCHO</h2>
+    <h2 class="fw-bold mb-5">Missão, visão e valores que sustentam o UGUINCHOBR</h2>
 
     <div class="row justify-content-center mb-5">
         
@@ -68,7 +68,7 @@
         
         <div class="col-md-7">
             <p class="fw-bold fs-4 pe-lg-5">
-                No UGUINCHO, cada clique é pensado para oferecer tranquilidade ao motorista, oportunidade ao guincheiro e eficiência às empresas.
+                No UGUINCHOBR, cada clique é pensado para oferecer tranquilidade ao motorista, oportunidade ao guincheiro e eficiência às empresas.
             </p>
         </div>
         

@@ -93,7 +93,7 @@
 <!-- Por que escolher -->
 <section class="porque-escolher py-5">
     <div class="container">
-        <h2 class="fw-bold mb-5 text-center">Por que escolher o UGUINCHO?</h2>
+        <h2 class="fw-bold mb-5 text-center">Por que escolher o UGUINCHOBR?</h2>
         <div class="row g-4">
             <div class="col-md-4 d-flex">
                 <div class="card h-100">
@@ -173,7 +173,7 @@
 <!-- QR Codes -->
 <section class="qrcodes py-5">
     <div class="container">
-        <h3 class="fw-bold mb-4">UGUINCHO na palma da sua mão</h3>
+        <h3 class="fw-bold mb-4">UGUINCHOBR na palma da sua mão</h3>
         <div class="row justify-content-center g-4">
             <div class="col-md-6">
                 <div class="border rounded p-4 h-100 d-flex align-items-center">
@@ -191,7 +191,7 @@
                     <img src="./assets/img/qrcode.png" class="img-fluid me-3" alt="QR Parceiros" style="max-width: 120px;">
                     
                     <div>
-                        <p class="mb-1"><strong>Seja um parceiro UGUINCHO</strong></p>
+                        <p class="mb-1"><strong>Seja um parceiro UGUINCHOBR</strong></p>
                         <small class="text-muted">Escaneie o QR Code, baixe o app e cadastre-se</small>
                     </div>
                 </div>

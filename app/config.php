@@ -2,7 +2,7 @@
 // Configurações globais do site
 
 // Nome do site
-define('SITE_NAME', 'UGUINCHO');
+define('SITE_NAME', 'UGUINCHOBR');
 
 // URL base (ajuste para seu domínio ou ambiente local)
 define('BASE_URL', 'http://localhost/uguincho/');
@@ -12,8 +12,8 @@ define('LINK_APP_STORE', '');
 define('LINK_PLAY_STORE', '');
 
 // Contatos
-define('SITE_EMAIL', 'suporte@uguincho.com');
-define('SITE_PHONE', '0800-000-0000');
+define('SITE_EMAIL', 'suporte@uguinchobr.com.br');
+define('SITE_PHONE', '62 99252-2207');
 
 // Redes sociais
 define('SOCIAL_INSTAGRAM', 'https://instagram.com/uguincho');

@@ -12,26 +12,26 @@
         Última atualização: 2 de Outubro de 2025
     </p>
 
-    <h2 class="fw-bold h4 mt-5 mb-3">Bem-vindo ao UGUINCHO!</h2>
+    <h2 class="fw-bold h4 mt-5 mb-3">Bem-vindo ao UGUINCHOBR!</h2>
     <p>
         Estes Termos e Condições de Uso regem a utilização da nossa plataforma e serviços, que conectam motoristas a prestadores de serviço de guincho e assistência veicular.
     </p>
 
     <h3 class="fw-bold h4 mt-5 mb-3">1. Aceitação dos Termos</h3>
     <p>
-        Ao acessar ou utilizar a plataforma UGUINCHO (aplicativo ou website), você concorda com estes Termos de Uso e com a nossa Política de Privacidade. Caso não concorde, você não deve utilizar os nossos serviços.
+        Ao acessar ou utilizar a plataforma UGUINCHOBR (aplicativo ou website), você concorda com estes Termos de Uso e com a nossa Política de Privacidade. Caso não concorde, você não deve utilizar os nossos serviços.
     </p>
 
-    <h3 class="fw-bold h4 mt-5 mb-3">2. O Serviço UGUINCHO</h3>
+    <h3 class="fw-bold h4 mt-5 mb-3">2. O Serviço UGUINCHOBR</h3>
     <p>
-        O UGUINCHO atua como uma **plataforma de intermediação tecnológica** que facilita a conexão entre:
+        O UGUINCHOBR atua como uma **plataforma de intermediação tecnológica** que facilita a conexão entre:
     </p>
     <ul>
         <li><strong>Usuários Motoristas:</strong> Pessoas que necessitam de serviços de guincho e assistência veicular.</li>
         <li><strong>Parceiros Guincheiros:</strong> Profissionais independentes que prestam os serviços de reboque e assistência.</li>
     </ul>
     <p>
-        O UGUINCHO **não é** uma empresa de transporte ou serviço de guincho. A responsabilidade pela prestação do serviço de reboque ou assistência é exclusiva do Parceiro Guincheiro.
+        O UGUINCHOBR **não é** uma empresa de transporte ou serviço de guincho. A responsabilidade pela prestação do serviço de reboque ou assistência é exclusiva do Parceiro Guincheiro.
     </p>
 
     <h3 class="fw-bold h4 mt-5 mb-3">3. Cadastro e Elegibilidade</h3>
@@ -59,12 +59,12 @@
 
     <h3 class="fw-bold h4 mt-5 mb-3">7. Limitação de Responsabilidade</h3>
     <p>
-        O UGUINCHO não se responsabiliza por danos, perdas ou prejuízos decorrentes do serviço de reboque ou assistência prestado pelo Parceiro Guincheiro, sendo a responsabilidade civil e criminal exclusiva do prestador. No entanto, o UGUINCHO se compromete a auxiliar na mediação de conflitos entre as partes.
+        O UGUINCHOBR não se responsabiliza por danos, perdas ou prejuízos decorrentes do serviço de reboque ou assistência prestado pelo Parceiro Guincheiro, sendo a responsabilidade civil e criminal exclusiva do prestador. No entanto, o UGUINCHOBR se compromete a auxiliar na mediação de conflitos entre as partes.
     </p>
 
     <h3 class="fw-bold h4 mt-5 mb-3">8. Rescisão</h3>
     <p>
-        O UGUINCHO pode, a seu exclusivo critério, suspender ou encerrar sua conta se houver violação destes Termos de Uso.
+        O UGUINCHOBR pode, a seu exclusivo critério, suspender ou encerrar sua conta se houver violação destes Termos de Uso.
     </p>
 
     <h3 class="fw-bold h4 mt-5 mb-3">9. Legislação Aplicável e Foro</h3>

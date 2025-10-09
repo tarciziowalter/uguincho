@@ -9,12 +9,12 @@
 
 <section class="container py-5 mb-5">
     <p class="mb-5">
-        Esta Política de Privacidade descreve como o UGUINCHO coleta, usa e armazena seus dados pessoais em conformidade com a LGPD.
+        Esta Política de Privacidade descreve como o UGUINCHOBR coleta, usa e armazena seus dados pessoais em conformidade com a LGPD.
     </p>
 
     <h2 class="fw-bold h4 mt-5 mb-3">1. Quem Somos</h2>
     <p>
-        UGUINCHO é a controladora dos seus dados pessoais para os serviços oferecidos pela plataforma.
+        UGUINCHOBR é a controladora dos seus dados pessoais para os serviços oferecidos pela plataforma.
     </p>
 
     <h2 class="fw-bold h4 mt-5 mb-3">2. Dados Coletados</h2>

@@ -13,7 +13,7 @@
         <div class="col-lg-12">
             <h2 class="fw-bold mb-4">Mais chamados e ganhos para impulsionar o seu trabalho</h2>
             <p>
-                O UGUINCHO é a ponte entre você e novos clientes. Ao se cadastrar, você passa a receber chamados em tempo real, gerenciar seus ganhos diretamente pelo app e escolher quando e onde atender. É mais autonomia, flexibilidade e oportunidades para aumentar sua renda!
+                O UGUINCHOBR é a ponte entre você e novos clientes. Ao se cadastrar, você passa a receber chamados em tempo real, gerenciar seus ganhos diretamente pelo app e escolher quando e onde atender. É mais autonomia, flexibilidade e oportunidades para aumentar sua renda!
             </p>
         </div>
     </div>
@@ -32,7 +32,7 @@
                             ★★★★★
                         </div>
                         <p class="card-text small">
-                            "Depois que entrei para o UGUINCHO, minha rotina mudou. Passei a ter muito mais chamados e consigo planejar meus horários com liberdade."
+                            "Depois que entrei para o UGUINCHOBR, minha rotina mudou. Passei a ter muito mais chamados e consigo planejar meus horários com liberdade."
                         </p>
                     </div>
                     <div class="d-flex align-items-center mt-3 border-top pt-3">
@@ -96,7 +96,7 @@
         <div class="accordion-item bg-transparent ps-0">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button fw-bold bg-transparent shadow-none w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="padding-left: 0;">
-                    Como me cadastro no UGUINCHO?
+                    Como me cadastro no UGUINCHOBR?
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
@@ -134,7 +134,7 @@
     <div class="container">
         <div class="row align-items-center">            
             <div class="col-md-6">
-                <h3 class="fw-bold mb-4 mb-md-0">Baixe o UGUINCHO e conquiste mais chamados, clientes e autonomia no seu trabalho.</h3>
+                <h3 class="fw-bold mb-4 mb-md-0">Baixe o UGUINCHOBR e conquiste mais chamados, clientes e autonomia no seu trabalho.</h3>
             </div>             
             <div class="col-md-6 d-flex justify-content-end">                
                 <div class="card border-0" style="border-radius: 12px;">

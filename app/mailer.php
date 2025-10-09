@@ -11,11 +11,11 @@ use PHPMailer\PHPMailer\Exception;
 function sendContactEmail(array $formData): bool {
     
     // --- PREENCHA ESTAS VARIÁVEIS COM SUAS CREDENCIAIS SMTP REAIS ---
-    $host = 'localhost'; 
-    $username = 'destino@uguincho.com';
-    $password = '';
-    $port = 1025;
-    //$encryption = PHPMailer::ENCRYPTION_STARTTLS; 
+    $host = 'smtp.zoho.com'; 
+    $username = 'suporte@uguinchobr.com.br';
+    $password = 'Supor2025##';
+    $port = 465;
+    $encryption = PHPMailer::ENCRYPTION_SMTPS;
     // -----------------------------------------------------------------
     
     if (!class_exists(PHPMailer::class)) {
@@ -32,14 +32,14 @@ function sendContactEmail(array $formData): bool {
         $mail->SMTPAuth = true;
         $mail->Username = $username;
         $mail->Password = $password;
-        //$mail->SMTPSecure = $encryption;
+        $mail->SMTPSecure = $encryption;
         $mail->Port = $port;
         $mail->CharSet = 'UTF-8';
         $mail->setLanguage('pt_br'); 
         $mail->isHTML(true); 
 
-        $mail->setFrom($username, 'Formulário de Contato UGUINCHO');
-        $mail->addAddress('destino@uguincho.com', 'Suporte UGUINCHO'); 
+        $mail->setFrom($username, 'Formulário de Contato UGUINCHOBR');
+        $mail->addAddress('suporte@uguinchobr.com.br', 'Suporte UGUINCHOBR'); 
 
         $mail->Subject = 'Nova Mensagem de Contato - ' . $formData['nome'];
         
@@ -127,7 +127,7 @@ function sendContactEmail(array $formData): bool {
                             
                             <!-- Rodapé -->
                             <div class="footer" style="color: #9ca3af; font-size: 12px; margin-top: 20px; text-align: center;">
-                                Esta mensagem foi gerada automaticamente pelo sistema de contato UGUINCHO.
+                                Esta mensagem foi gerada automaticamente pelo sistema de contato UGUINCHOBR.
                             </div>
                         </td>
                     </tr>

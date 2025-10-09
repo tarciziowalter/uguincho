@@ -13,7 +13,7 @@
         <div class="col-lg-12">
             <h2 class="fw-bold mb-4">Mais controle e eficiência na gestão da sua frota.</h2>
             <p>
-                Para locadoras, transportadoras e seguradoras, o UGUINCHO é uma solução estratégica. Com nossa plataforma, sua empresa reduz o tempo de veículos parados, centraliza a gestão de chamados e tem acesso a relatórios completos para otimizar custos e operações. É agilidade para você, eficiência para sua frota e satisfação para seus clientes.
+                Para locadoras, transportadoras e seguradoras, o UGUINCHOBR é uma solução estratégica. Com nossa plataforma, sua empresa reduz o tempo de veículos parados, centraliza a gestão de chamados e tem acesso a relatórios completos para otimizar custos e operações. É agilidade para você, eficiência para sua frota e satisfação para seus clientes.
             </p>
         </div>
     </div>
@@ -32,7 +32,7 @@
                             ★★★★★
                         </div>
                         <p class="card-text small">
-                            "O UGUINCHO trouxe mais eficiência à nossa locadora. Agora conseguimos acionar guinchos em minutos e evitar prejuízos com veículos parados."
+                            "O UGUINCHOBR trouxe mais eficiência à nossa locadora. Agora conseguimos acionar guinchos em minutos e evitar prejuízos com veículos parados."
                         </p>
                     </div>
                     <div class="d-flex align-items-center mt-3 border-top pt-3">
@@ -96,12 +96,12 @@
         <div class="accordion-item bg-transparent ps-0">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button fw-bold bg-transparent shadow-none w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="padding-left: 0;">
-                    Como o UGUINCHO pode ajudar na gestão da minha frota?
+                    Como o UGUINCHOBR pode ajudar na gestão da minha frota?
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
                 <div class="accordion-body small text-muted bg-transparent p-0 ps-0">
-                    O UGUINCHO permite acionar guinchos de forma rápida e organizada, trazendo mais segurança e agilidade para manter seus veículos sempre disponíveis.
+                    O UGUINCHOBR permite acionar guinchos de forma rápida e organizada, trazendo mais segurança e agilidade para manter seus veículos sempre disponíveis.
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
     <div class="container">
         <div class="row align-items-center">            
             <div class="col-md-6">
-                <h3 class="fw-bold mb-4 mb-md-0">Baixe agora o UGUINCHO e otimize a gestão da sua frota com eficiência e segurança.</h3>
+                <h3 class="fw-bold mb-4 mb-md-0">Baixe agora o UGUINCHOBR e otimize a gestão da sua frota com eficiência e segurança.</h3>
             </div>             
             <div class="col-md-6 d-flex justify-content-end">                
                 <div class="card border-0" style="border-radius: 12px;">
